@@ -1,0 +1,45 @@
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    background-color: black;
+    overflow: hidden;
+}
+
+ul li{
+    float: left;
+/*    padding: 10px;*/
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: red;
+/*    float: left;*/
+    padding: 10px;
+    display: inline-block;
+}
+.dropdown-content{
+    position: absolute;
+    background-color: greenyellow;
+    min-width: 120px;
+    display: none;
+    margin-top: 1px;
+}
+.dropdown-content a{
+    display: block;
+    
+}
+
+ul li a:hover{
+    background-color: #676565;
+}
+.dropdown-content a:hover{
+    background: yellow;
+    color: aqua;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+    
+}
